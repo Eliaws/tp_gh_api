@@ -1,6 +1,6 @@
 name: GITHUB ACTIONS TP PARTIE 2
 run-name: ${{ github.actor }} GITHUB ACTIONS TP PARTIE 2
-on: [push]
+on: [workflow_dispatch]
 jobs:
   build:
     name: Build
