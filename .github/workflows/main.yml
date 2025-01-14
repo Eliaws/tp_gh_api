@@ -15,3 +15,5 @@ jobs:
           node-version: ">=22"
       - name: Set github user
         run: git config user.email "test@example.com" && git config user.name "CI/CD - MMI"
+        - name: Run release command
+          run: npm run release --ci
